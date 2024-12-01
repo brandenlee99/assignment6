@@ -1,0 +1,36 @@
+mainContent{
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+    height: 100
+}
+    .section{
+        width: 400px;
+        float: left;
+        margin-right: 40px;
+        background-repeat: no-repeat;
+        position: relative
+        height: 600px;
+    }
+    .section.one{
+        background-image: 
+        url(images/light1.png);
+    }
+    .section.two{
+        background-image: 
+       url(imagges/light2.png);
+    }
+    .overlay{
+        background-color: rgba(255,255,255, .5);
+        position:absolute;
+        top: 500px;
+        width: 400px; 
+        height: 50px;
+        overflow:hidden;
+        -ms-transition:all 1s ease-in-out .2s
+    }
+    .overlay:hover{
+        height: 600px;
+        top: 0;
+    }
